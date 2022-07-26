@@ -33,6 +33,3 @@ nav a:hover {
   border-top: 5px solid #00bff3;
   border-bottom: 5px solid #00bff3;
 }
-.active:hover {
-  background-color: red;
-}
