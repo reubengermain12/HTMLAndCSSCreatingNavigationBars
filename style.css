@@ -6,9 +6,11 @@ nav {
   border: 1px solid #333;
   width: 50%;
   margin: 1rem auto;
-
-  /*The margin element above adds 1rem at the top & bottom of the box, and the auto value adds margin automatically at the left & right sides of the box*/
+  padding: 1rem;
 }
+
+/*The margin element above adds 1rem at the top & bottom of the box, and the auto value adds margin automatically at the left & right sides of the box*/
+
 nav ul {
   list-style-type: none;
   margin: 0;
