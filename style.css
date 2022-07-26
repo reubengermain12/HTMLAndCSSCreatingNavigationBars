@@ -15,7 +15,6 @@ nav ul {
 }
 
 nav li {
-  padding: 0.5rem 1rem;
 }
 
 nav li:hover {
@@ -27,6 +26,7 @@ nav a {
   font-size: 1.5rem;
   font-weight: 600;
   display: block;
+  padding: 0.5rem 1rem;
 }
 nav a:focus {
   background-color: #f0c808;
