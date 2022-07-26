@@ -26,3 +26,6 @@ nav a:focus {
   background-color: #f0c808;
   color: black;
 }
+nav a:hover {
+  color: #ff583d;
+}
