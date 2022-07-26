@@ -1,3 +1,38 @@
+/*The code below is to make a vertical navigation bar*/
+/*I have added new styling code nad some new features*/
+/*I have commented out the old code at the bottom of text editor*/
+
+body {
+  font-family: "Varta", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  border-right: 5px solid #0966c2;
+  width: 30%;
+  height: 100vh;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  font-size: 2rem;
+}
+nav a {
+  color: #0966c2;
+  text-decoration: none;
+  display: block;
+  padding: 1rem;
+}
+nav a:hover {
+  color: white;
+  background-color: #0966c2;
+}
+nav a:hover i {
+  color: #f3ba64;
+}
+
+/*
 nav {
   border: 1px solid #333;
   width: 50%;
@@ -33,3 +68,4 @@ nav a:hover {
   border-top: 5px solid #00bff3;
   border-bottom: 5px solid #00bff3;
 }
+*/
