@@ -22,3 +22,7 @@ nav a {
   font-size: 1.5rem;
   font-weight: 600;
 }
+nav a:focus {
+  background-color: #f0c808;
+  color: black;
+}
