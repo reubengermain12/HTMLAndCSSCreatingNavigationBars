@@ -15,3 +15,6 @@ li {
 a {
   background-color: yellow;
 }
+nav ul {
+  list-style-type: none;
+}
