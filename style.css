@@ -1,7 +1,3 @@
-/*This code is to style vertical navigation bars*/
-/*Turning into a panel of links*/
-/*Sticking a border around the nav is the first step to good styling*/
-
 nav {
   border: 1px solid #333;
   width: 50%;
