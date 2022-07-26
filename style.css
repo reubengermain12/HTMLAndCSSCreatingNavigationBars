@@ -9,3 +9,6 @@ nav {
 ul {
   border: 2px solid black;
 }
+li {
+  border: 2px dotted green;
+}
