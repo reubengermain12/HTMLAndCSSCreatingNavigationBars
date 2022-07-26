@@ -6,16 +6,22 @@ nav {
   border: 1px solid #333;
   width: 50%;
   margin: 1rem auto;
-  padding: 1rem;
 }
-
-/*The margin element above adds 1rem at the top & bottom of the box, and the auto value adds margin automatically at the left & right sides of the box*/
 
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
+
+nav li {
+  padding: 0.5rem 1rem;
+}
+
+nav li:hover {
+  background-color: #f0c808;
+}
+
 nav a {
   color: #00bff3;
   text-decoration: none;
