@@ -1,0 +1,5 @@
+/*Put a border on the elements*/
+/*This is just a CSS debugging technique*/
+* {
+  border: 1px solid red;
+}
