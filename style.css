@@ -1,13 +1,39 @@
+body {
+  font-family: "Varta", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  border-bottom: 5px solid #00bff3;
+  border-top: 5px solid #00bff3;
+  margin: 1rem auto;
+  background-color: #eee;
+}
+
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  text-align: center;
+  font-size: 2rem;
 }
 nav li {
   display: inline-block;
 }
-
-/*line 2 turns of the bullet points*/
-/*lines 3 & 4 gets rid of the browsers default margin and padding*/
-
-/*line 7 li elements are block, so change to inline-block*/
+nav a {
+  color: #0966c2;
+  text-decoration: none;
+  display: block;
+  padding: 1rem;
+}
+nav a:hover {
+  color: white;
+  background-color: #0966c2;
+}
+nav a:hover i {
+  color: #f3ba64;
+}
+.active {
+  color: #ff583d;
+  background-color: #c5e5ed;
+}
