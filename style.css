@@ -3,5 +3,11 @@ nav ul {
   margin: 0;
   padding: 0;
 }
+nav li {
+  display: inline-block;
+}
+
 /*line 2 turns of the bullet points*/
 /*lines 3 & 4 gets rid of the browsers default margin and padding*/
+
+/*line 7 li elements are block, so change to inline-block*/
